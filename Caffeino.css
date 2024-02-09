@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    background-color: #FCF7E8;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{    
+    width: 50%;
+    height: 100vh;
+    /* background-color: red; */
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.box1 .logo{
+    width: 180px;
+    height: 70px;
+    overflow: hidden;
+    /* background-color: red; */
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box1 .text{
+    color: #000000;
+    margin-top: 55px;
+    font-size: 50px;
+    font-weight: 300px;
+}
+
+.box1 .text span{
+    color: #AE593A;
+    font-weight: 600;
+}
+
+.box1 .sipper{
+    width: 350px;
+    height: 300px;
+    /* background-color: red;  */
+    margin-top: 10px;
+    margin-left: 5%;   
+}
+
+.sipper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box2{
+    width: 50%;
+    height: 100vh;
+    background-color: #F5F5F5;
+    padding-left: 30px;
+    border-top-left-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+}
+
+.box2 .lang{
+    height: 35px;
+    max-width: 300px;
+    /* background-color: blue; */
+    overflow: hidden;
+    margin-left: 50%;
+    margin-top: 30px;
+}
+
+.lang #languages{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+    outline: none;
+    color: #00000079;
+    font-size: 16px;
+    font-weight: 300;
+    padding-right: 5px;
+    background-color: #F5F5F5;
+}
+
+.box2 .account{
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.box2 form{
+    max-width: 500px;
+    /* background-color: red;     */
+}
+
+.box2 form input[type="text"]{
+    margin-top: 20px;
+    padding: 20px 10px 20px;
+    width: 500px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #00000079;
+    border-radius: 10px;
+    background-color: #FCF7E8;
+}
+
+.box2 form input[type="submit"]{
+    margin-top: 50px;
+    margin-left: 30%;
+    padding: 15px 70px;
+    background-color: #AE593A;
+    color: #ffffff;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.box2 form input[type="submit"]:hover{
+    background-color: #FCF7E8;
+    color: #000000;
+}
+
+.box2 .alt{
+    margin-top: 30px;    
+    margin-left: 150px;
+    font-size: 22px;      
+}
+
+.box2 .media{
+    /* display: flex;
+    flex-direction:row;  */
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.box2 .media a{
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 500; 
+    text-decoration: none; 
+    transition: 0.4s;     
+}
+
+.box2 .login{
+    font-size: 20px;
+    margin-top: 28px;
+}
+
+.box2 .login a{
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+    color: #00000079;    
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.box2 .login a:hover{
+    font-size: 30px;
+    color: #AE593A;    
+}
