@@ -135,14 +135,14 @@
 
 .box2 .alt{
     margin-top: 30px;    
-    margin-left: 150px;
+    margin-left: 21%;
     font-size: 22px;      
 }
 
 .box2 .media{
-    /* display: flex;
-    flex-direction:row;  */
-    margin-left: 150px;
+    display: flex;
+    flex-direction:row; 
+    margin-left: 15%;
     margin-top: 20px;
 }
 
@@ -151,7 +151,24 @@
     font-size: 50px;
     font-weight: 500; 
     text-decoration: none; 
-    transition: 0.4s;     
+    margin: 0 24px;
+    transition: 0.4s;        
+}
+
+.box2 .media a .fa-facebook{
+    color: rgba(0, 0, 255, 0.632);
+}
+
+.box2 .media a .fa-google{
+    background: linear-gradient(180deg, red, yellow, green, blue);
+    background-clip: text;
+    color: transparent;
+}
+
+.box2 .media a .fa-instagram{
+    background: linear-gradient(180deg, red, yellow, green, blue);
+    background-clip: text;
+    color: transparent;
 }
 
 .box2 .login{
