@@ -116,7 +116,7 @@
 
 .box2 form input[type="submit"]{
     margin-top: 50px;
-    margin-left: 30%;
+    margin-left: 40%;
     padding: 15px 70px;
     background-color: #AE593A;
     color: #ffffff;
@@ -139,10 +139,29 @@
     font-size: 22px;      
 }
 
+.horizon{
+    border: 1px solid #00000091;
+    opacity: 0.6;
+    display: block;
+    width: 25%;
+    margin: 15px 0;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 10px 0 10px;
+    color: #00000091;
+}
+
+.line .alt{
+    margin: 5px 15px 0 15px;
+}
+
 .box2 .media{
     display: flex;
     flex-direction:row; 
-    margin-left: 15%;
+    margin-left: 20%;
     margin-top: 20px;
 }
 
@@ -152,7 +171,11 @@
     font-weight: 500; 
     text-decoration: none; 
     margin: 0 24px;
-    transition: 0.4s;        
+    transition: all 0.4s ease;        
+}
+
+.box2 .media a:hover{
+    font-size: 40px;
 }
 
 .box2 .media a .fa-facebook{
@@ -166,7 +189,7 @@
 }
 
 .box2 .media a .fa-instagram{
-    background: linear-gradient(180deg, red, yellow, green, blue);
+    background: linear-gradient(130deg, yellow, violet, purple);
     background-clip: text;
     color: transparent;
 }
@@ -183,9 +206,11 @@
     color: #00000079;    
     text-decoration: none;
     transition: 0.5s;
+    opacity: 0.7;
 }
 
 .box2 .login a:hover{
     font-size: 30px;
-    color: #AE593A;    
+    color: #AE593A;
+    opacity: 1;    
 }
